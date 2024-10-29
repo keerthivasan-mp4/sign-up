@@ -8,7 +8,9 @@
 
 .addUser h3{
     text-align: center;
-    margin-top:-1.5rem
+    margin-top:-1.5rem;
+    /* color:blue; */
+    
 }
 
 .addUser .inputGroup{
@@ -28,7 +30,7 @@
     /* border-radius: 10px; */
     /* border-top: 2px ; */
     outline: 0;
-    border-width:0 0 02px 0px;
+    border-width: 0 0 2px 0;
 
 }
 
@@ -46,17 +48,28 @@ input:focus{
    
 }
 
+.btn{
+    border-radius: 10px;
+    margin-top: .5rem;
+}
+
+#login-with{
+    margin: -.5rem 0 0 .3rem; 
+    font-size: 1.1rem;
+    text-align: center;
+}
 
 
 
 
-/* mobile screen */
+/* -------------------mobile screen ---------------*/
 
 @media (width<=426px) {
     
     body{
         background-color: rgb(77, 101, 188);
     }
+    
     .addUser{
         background-color: white;
         /* border: 1px solid red; */
@@ -69,8 +82,8 @@ input:focus{
     
     
     .btn{
-        background-color: blue;
-        font-size: 11rem;
+        /* background-color: white; */
+        font-size: 1rem;
         
     }
     p{
@@ -106,13 +119,31 @@ input:focus{
     
     }
 
-  #google-btn{
-    background-color: white;
-    color: red;
-  }
+    #login-with{
+        margin: -.5rem 0 0 .3rem; 
+        font-size: 1.1rem;
+        text-align: center;
+    }
 
-  #apple-btn{
-    background-color: white;
-    color: black;
-  }
+    #google-btn{
+        /* margin-left:rem; */
+        width:18rem;
+        margin-top: 1.3rem;;
+
+
+    }
+
+    #apple-btn{
+        margin:1.1rem 0 0 0rem;
+        width:18rem;
+        background-color: black;
+    }
+
+    #login-txt{
+        margin-top: 5rem;
+        color:red;
+    }
+ 
+
+  
 }

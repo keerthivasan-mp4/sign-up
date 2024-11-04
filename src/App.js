@@ -1,5 +1,6 @@
 // import logo from './logo.svg'
 import Signup from "./signup/signup";
+// import apple from './images/apple.png';
 function App() {
   return (
     <div className="App">

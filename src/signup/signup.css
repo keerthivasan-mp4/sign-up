@@ -66,13 +66,11 @@ input:focus{
 
 @media (width<=426px) {
     
-    body{
-        background-color: rgb(77, 101, 188);
-    }
+   
     
     .addUser{
-        background-color: white;
         /* border: 1px solid red; */
+        
         border-radius: 10px;
         margin: 2rem auto;
         width: 90%;
@@ -141,7 +139,36 @@ input:focus{
 
     #login-txt{
         margin-top: 5rem;
+        margin-left: -5rem;
         color:red;
+    }
+
+    #signup-link{
+        margin: -03rem 0rem 13rem 12.5rem;
+    }
+
+     #google-img
+    {
+       width: 3rem;
+       height: 3rem;
+       object-fit: contain;
+       align-items: center;
+       margin-left:3rem; 
+    }
+
+    #apple-container{
+        border: 1px solid red;
+    }
+
+    #apple-container>p{
+        color:blue;
+        display: inline-flex;
+        margin-left:3rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-align: center;
+        
+
     }
  
 

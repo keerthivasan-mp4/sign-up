@@ -1,3 +1,10 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
 .addUser{
         border: 1px solid;
         margin: 10rem auto;
@@ -65,7 +72,9 @@ input:focus{
 /* -------------------mobile screen ---------------*/
 
 @media (width<=426px) {
-    
+    *{
+        text-decoration: none;
+    }
    
     
     .addUser{
@@ -92,6 +101,12 @@ input:focus{
     #login-btn{
         text-align: center;
         margin-left: 7rem;
+    }
+
+    /* show password styling */
+    #show-password{
+        display: inline-flex;
+        margin:-1rem 16rem 0rem 0rem;
     }
     
     /* horizonatal line before  OR */
@@ -123,19 +138,9 @@ input:focus{
         text-align: center;
     }
 
-    #google-btn{
-        /* margin-left:rem; */
-        width:18rem;
-        margin-top: 1.3rem;;
+    
 
-
-    }
-
-    #apple-btn{
-        margin:1.1rem 0 0 0rem;
-        width:18rem;
-        background-color: black;
-    }
+ 
 
     #login-txt{
         margin-top: 5rem;
@@ -156,20 +161,32 @@ input:focus{
        margin-left:3rem; 
     }
 
-    #apple-container{
+    .apple-login-btn, .google-login-btn{
         border: 1px solid red;
+        display: block;
+        margin-top:1rem;
+        width:18rem;
+        align-items: center;
+        justify-content: center;
     }
 
-    #apple-container>p{
-        color:blue;
-        display: inline-flex;
-        margin-left:3rem;
-        font-size: 1.3rem;
-        font-weight: bold;
-        text-align: center;
-        
-
+    .apple-login-btn>a, .google-login-btn>a, #signup-link{
+        text-decoration: none;
+        color: black
     }
+
+    .google-login-btn>a{
+        margin-right:4rem;
+    }
+
+    .apple-login-btn>a{
+        margin-right:1.5rem;
+    }
+
+
+
+
+    
  
 
   

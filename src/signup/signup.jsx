@@ -12,7 +12,8 @@ const Signup = () =>{
                  <form action="">
                     <div className="inputGroup">
                       <input type="email" placeholder="Enter Your Email" id="email"/>
-                      <input type="password" placeholder="Password" id="password"/>
+                      <input type="password" placeholder="Password" id="password"/> <br />
+                      <input type="checkbox" name="show-password" id="show-password"  placeholder="Show PAssword"/> <label htmlFor="show-password">Show Password</label>
                       <button type="submit" className="btn btn-success">Login</button>
                     </div>
                 </form>
@@ -23,22 +24,27 @@ const Signup = () =>{
                 <p id="login-with">Login with</p>
 
               
-                <div id="apple-container"> 
-                    <a href="https://www.apple.com"><img src="./image/apple.png" alt="apple" id="apple-img"/></a> <p>Apple</p>
-                    </div>
+                  
+
+                    <button className="apple-login-btn" id="apple-btn">
+                        <a href="https://www.apple.com"><img src="./image/apple.png" alt="apple"  id="apple-img"/> apple</a>
+                    </button>
 
 
-                 <a href="https://www.google.com"><img src="./image/google.png" alt="google"  id="google-img"/></a>
+                    <button className="google-login-btn" id="google-btn">
+
+                 <a href="https://www.google.com"><img src="./image/google.png" alt="google"  id="google-img"/> Google</a>
+                    </button>
+
+                    
+
+
 
                
                
                
                
-                {/* <button className="btn btn-primary" id="google-btn"> <img src="./images/google.png" alt="google"/>
-                   Google
-                    </button> <br />
-                <button className="btn btn-primary" id="apple-btn"><img src="./images/apple.png" alt="Apple"/>Apple
-                </button> */}
+               
 
                 
 

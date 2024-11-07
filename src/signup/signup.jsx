@@ -8,7 +8,7 @@ const Signup = () =>{
     return(
         
        <div className="addUser">
-             <h3>Log in</h3>
+             <h3>Welcome Back</h3>
                  <form action="">
                     <div className="inputGroup">
                       <input type="email" placeholder="Enter Your Email" id="email"/>
@@ -36,21 +36,9 @@ const Signup = () =>{
                  <a href="https://www.google.com"><img src="./image/google.png" alt="google"  id="google-img"/> Google</a>
                     </button>
 
-                    
-
-
-
-               
-               
-               
-               
-               
-
-                
-
-                
-                <div className="login">
-                    <p id="login-txt">Don't have an account?</p> <a id ="signup-link" href="http://">Sign up</a>
+                <div className="sign-up">
+                    <p id="signup-txt">Don't have an account?</p> 
+                    <a id ="signup-link" href="http://">Sign up</a>
                 </div>
 
        </div>
